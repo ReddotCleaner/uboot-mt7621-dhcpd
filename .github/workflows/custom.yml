@@ -165,3 +165,4 @@ jobs:
             - Baud Rate: ${{ inputs.baudrate }}
           files: uboot-mt7621/archive/*
           tag_name: ${{ inputs.model }}-${{ steps.timestamp.outputs.now }}
+# fork-enabled: register workflows on this fork
